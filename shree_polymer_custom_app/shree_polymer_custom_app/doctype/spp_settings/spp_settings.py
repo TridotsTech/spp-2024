@@ -30,8 +30,8 @@ def get_filter_subcontractor():
 			frappe.response.status = "success"
 			frappe.response.message = json.dumps(result)
 		else:
-			frappe.response.status = "failed"
-			frappe.response.message = f"There is no<b>Warehouse</b> details found..!"
+			frappe.response.status = "success"
+			frappe.response.message = json.dumps([])
 	except Exception:
 		frappe.response.status = "failed"
 		frappe.response.message = f"Something went wrong not able to filter <b>Parent Warehouse</b>..!"

@@ -515,7 +515,7 @@
    "permlevel": 1
   },
   {
-   "default": "0",
+   "default": "1",
    "fieldname": "enable_enqueue",
    "fieldtype": "Check",
    "label": "Enable Enqueue",
@@ -531,7 +531,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-10-19 15:05:40.073264",
+ "modified": "2024-06-28 18:32:16.063948",
  "modified_by": "Administrator",
  "module": "Shree Polymer Custom App",
  "name": "SPP Settings",

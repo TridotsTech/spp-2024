@@ -64,7 +64,7 @@ frappe.ui.form.on('SPP Settings', {
 					frm.events.set_naming_series(frm)
 				}
 				else {
-					frappe.msgeprint("Something Went Wrong..! Can't get naming series for <b>Stock Entry</b>")
+					frappe.msgprint("Something Went Wrong..! Can't get naming series for <b>Stock Entry</b>")
 				}
 			}
 		})
